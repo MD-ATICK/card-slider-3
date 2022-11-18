@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@400;500;600&family=Signika:wght@500&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(73, 73, 73);}
+
+    .container{
+        max-width: 1152px;
+        margin: 3rem auto;
+        margin-bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 550px;
+        background-color: white;
+    }
+
+    .ditails{
+        width:50% ;
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }    
+
+    .image
+    {   
+        text-align: center;
+        width: 50%;
+        background-color: rgb(220, 93, 14);
+        
+    }
+
+    .image img{
+        width: 500px;
+        height: 389px;
+      position: relative;
+      top: 6rem;
+
+        
+    }
+
+    
+    .image::before{
+        content: "Nike";
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        font-size: 170px;
+        font-weight: 700;
+        opacity: 0.2;
+        top: 3rem;
+        transform: rotate(-10deg);
+
+    }
+    @media (max-width:1000px)
+    {
+        .container{
+            height: auto;
+            margin-top: 0;
+        }
+
+        .container .image{
+            padding: 0px;
+            width: 100%;
+            height: 27rem;
+            text-align: center;
+        }
+
+        .image img{
+            width: ;
+            height: 55vh;
+            position: relative;
+            top: 0;
+            transform: rotate(-10deg);
+           
+        }
+
+        .ditails{
+            width: 100%;
+        }
+
+        
+    .image::before{
+        content: "Nike barnd";
+        transform: rotate(0);
+        font-size: 50px;
+        position: absolute;
+        top: 23rem;
+        right: 2rem;
+        opacity: 0.5;
+        margin-left: 4rem;
+        
+
+    }
+    }
+
+    .content{
+        padding: 4rem 2rem;
+    }
+
+    .content h2{
+        font-size: 38px;
+        color: aqua;
+        letter-spacing: 1px;
+        padding-bottom: 0.3rem;
+    }
+
+    .content h4
+    {
+        text-transform: capitalize;
+        color: rgb(255, 47, 0);;
+    }
+
+    .content p
+    {
+        padding-top: 2rem;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 1.4rem;
+
+    }
+
+    .samllitem{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+
+    }
+
+    .samllitem h3
+    {
+        font-size: 38px;
+        opacity: 0.7;
+        margin-left: 1rem;
+    }
+
+    .samllitem button
+    {
+        padding: 1rem 2rem;
+        border: none;
+        background-color: aqua;
+        border-radius: 20px;
+        margin-right: 1rem;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+/* }
+
+.image img{
+    position: relative;
+    bottom: 70px;
+    height: 650px;
+    width: 700px;
+    object-fit: cover;
+    right: 60px;
+}
+
+
+.container .card{
+    max-width: 1152px;
+    margin: 3rem auto;
+    height: 550px;
+    display: flex;
+    
+}
+
+@media (max-width: 1000px)
+{
+
+    .card{
+        height: auto;
+    }
+
+    .container .image{
+        padding: 40px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+.card .image{
+    width: 50%;
+    background-color: rgb(7, 240, 229);
+}
+
+.ditails{
+    width: 50%;
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+
+.content {
+    padding: 30px;
+    padding-top: 4rem;
+
+}
+
+.content h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: aqua;
+    padding-bottom: 0.3rem;
+}
+
+.content h4{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.content p{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    width: 90%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.4rem;
+}
+.samllitem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.samllitem h3{
+    font-size: 40px;
+    margin-top: 3rem;
+    margin-left: 0.6rem;
+    opacity: 0.5;
+}
+
+.samllitem button{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    background-color: aqua;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding:0.8rem 3rem ;
+    margin-top: 2.8rem;
+} */
